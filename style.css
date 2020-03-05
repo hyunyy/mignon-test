@@ -1,0 +1,464 @@
+/*
+HTML 5 Template Name: Mignon 2020
+File: Style_m CSS
+Author: OS Templates
+Author URI: 
+Licence: <a href="#"></a>
+
+our story back color: #FAF4EF
+point color: #D495A6
+text color: #646464
+*/
+
+/* --------------------------------------------- */
+/* BASIC SETUP */
+/* --------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #646464;
+    font-family: 'Quicksand','Yeon+Sung','Lato','Arial', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+/* --------------------------------------------- */
+/* REUSABLE COMPONENTS  */
+/* --------------------------------------------- */
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.container {
+    height: auto;
+    position: relative;
+/*    background-color: aqua;*/
+}
+
+section {
+    height: 100vh;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+
+.box {
+    padding: 1%;
+}
+
+/* ------ HEADINGS------ */
+
+h1,h2,h3 {
+    font-weight: 500; 
+}
+
+h1 {
+    margin-top: 72px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    font-size: 120%;
+    word-spacing: 0;
+    text-align: right;
+    position: relative;
+    color: #fff;
+    letter-spacing: 2px;
+    padding-right: 10px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 130%;
+    word-spacing: 2px;
+    text-align: center;
+/*    margin-top: 30px;*/
+    margin-bottom: 30px;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 100%;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #D495A6;
+}
+
+/* ------ Paragraphs------ */
+
+.icon-p {
+    font-size: 60%;
+    margin-top: 15%;
+/*    80px;*/
+   
+}
+
+
+/* ------ LINKS------ */
+
+a:link,
+a:visited {
+    color: #D495A6;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid transparent;
+    -webkit-transition: border-bottom 0.2s, color 0.2s;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover,
+a:active  {
+    color: #555;
+    border-bottom: 1px solid transparent;
+}
+
+/* --------------------------------------------- */
+/* HEADER  */
+/* --------------------------------------------- */
+
+header {
+    background-color: #fff;
+    height: 90vh;
+    background-attachment: fixed;
+}
+
+.logo-white {
+    height: 110px;
+    width: auto;
+    margin: 25px 20px;
+    float: left;
+}
+
+/* Main navi  */
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 60px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0;
+    color: #555;
+    text-decoration: none;
+    text-transform: uppercase; 
+    font-size: 75%;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.3s;
+    transition: border-bottom 0.3s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #D495A6;    
+}
+
+/* Stcicky navi*/
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.97);
+    -webkit-box-shadow: 0 2px 2px #efefef;
+    box-shadow: 0 2px 2px #efefef;
+    z-index: 9999;
+}
+
+.sticky .main-nav {
+    margin-top: 20px;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    padding: 15px 0;
+    color: #555;
+}
+
+.sticky .logo-white {
+    display: block;
+    height: 60px;
+    margin: 0;
+}
+
+/* Mobile navi */
+.mobile-nav-icon {
+    float: right;
+    margin-top: 50px;
+    cursor: pointer;
+    display: none;
+    z-index: 9999;
+}
+
+.mobile-nav-icon i {
+    font-size: 200%;
+    color: #555;
+}
+
+/* HERO BOX */
+
+.hero-img {
+    width: auto;
+    height: 54%;
+    position: absolute;
+    top: 23%;
+}
+
+.pink-box {
+    display: inline-block;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    width: 33%;
+    height: 300px;
+    background-color: #D495A6;
+    float: right;
+    opacity: 88%;
+}
+
+.logo-pink {
+    display: block;
+    height: 90px;
+    width: auto;
+    margin-top: 10%;
+    float: right;
+    border: none;
+}
+
+
+/* --------------------------------------------- */
+/* ABOUT US */
+/* --------------------------------------------- */
+
+.section-about {
+    background-color: #FAF4EF;
+}
+
+.about-img {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    float: left;
+}
+
+.us-img {
+    width: 85%;
+    height: auto;
+    opacity: 0.70;
+    margin-top: 6%;
+    margin-bottom: 5%;
+    margin-left: 15%;
+}
+
+.story {
+    text-align: center;
+    float: right;
+    height: auto;
+    position: relative;
+    margin: 5%;
+}
+
+.h9:after {
+    display: block;
+    height: 2px;
+    background-color: #D495A6;
+    content: " ";
+    width: 50px;
+    margin: 0 auto;
+    margin-top: 30px;
+    line-height: 150%;
+}
+
+.long-copy {
+    padding-top: 40px;
+    font-size: 75%;
+    line-height: 150%;
+}
+
+/* --------------------------------------------- */
+/* MENU */
+/* --------------------------------------------- */
+
+.section-menu {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))), url(img/background-brick.jpg);
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(img/background-brick.jpg);
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed;
+}
+
+.h4:after {
+    display: block;
+    height: 2px;
+    background-color: #D495A6;
+    content: " ";
+    width: 30px;
+    margin: 0 auto;
+    margin-top: 30px;
+    line-height: 150%;
+}
+
+
+.menupic img {
+    border-radius: 15px;
+}
+.menupic {
+    margin-top: 3%;
+    position: relative;
+    overflow: hidden; 
+    opacity: 0.7;
+    -webkit-transform: scale(1.10);
+    transform: scale(1.10);
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s; opacity: 0.5s
+}
+.menupic:hover {
+    opacity: 1;
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03)
+}
+
+.menu-text {
+    width: 171px;
+    height: 140px;
+    background-color: #D495A6;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size: 75%;
+    color: #fff;
+    margin-top: -128px;
+   
+    padding-top: 56px;
+    opacity: 85%;
+}
+
+.m01 {
+    padding-top: 47px;
+}
+
+/* --------------------------------------------- */
+/* LOCATION */
+/* --------------------------------------------- */
+
+.maps-1 {
+    float: left;
+    display: block;
+}
+
+.maps-2 {
+    float: right;
+    background-color: rgba(250, 244, 239, 0.8);
+    width: 53%;
+    height: 350px;
+    padding-top: 30px;
+    margin-top: 3%;
+}
+
+.map-img {
+    width: auto;
+    height: 400px;
+}
+
+.address {
+    font-size: 75%;
+    text-align: center;
+    margin-bottom: 50px; 
+    line-height: 130%;
+}
+
+.how {
+    font-size: 75%;
+    text-align: center;
+}
+
+/* --------------------------------------------- */
+/* RESERVATION */
+/* --------------------------------------------- */
+
+
+.h10:after {
+    display: block;
+    height: 2px;
+    background-color: #D495A6;
+    content: " ";
+    width: 70px;
+    margin: 0 auto;
+    margin-top: 30px;
+    line-height: 150%;
+}
+
+.section-book {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))), url(img/background-brick.jpg);
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(img/background-brick.jpg);
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed;
+    padding-bottom: 5%;
+}
+
+.contact {
+    margin-top: 5%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    position: absolute;
+    width: 300px;
+    height: 320px;
+    padding-top: 5px;
+    background-color: #fff;
+}
+
+.hour {
+    font-size: 75%;
+    text-align: center;
+    margin-bottom: 50px; 
+    line-height: 130%;
+}
+
+/* --------------------------------------------- */
+/* Footer  */
+/* --------------------------------------------- */
+
+footer {
+    background-color: #919191;
+    padding: 50px;
+    font-size: 70%;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+}
+

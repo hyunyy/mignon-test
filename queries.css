@@ -1,0 +1,200 @@
+
+/* Big tablets to 1200px (width smaller than the 1140p row) */
+@media only screen and (max-width: 1200px) {
+    .pink-box {
+       margin: -1% 0;
+}
+    
+    .row{  padding:0 2%; }
+}
+
+/* Small tablets to big tablets : from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+    body { font-size: 18px; }
+    
+    section { 
+        padding: 7% 0; 
+        height: auto;}
+    
+    header { height: 80vh; }
+    
+    .hero-img {
+        margin-top: -3%;
+        width: 96%;
+        height: auto;
+    }
+
+    .pink-box { 
+        top: 28%;
+        right: 3%;
+        width: 35%;
+        height: 250px;
+    }                           
+
+    .logo-pink {
+        height: 60px;
+        width: auto;
+    }
+
+    .menupic {
+        margin-top: 10%;
+    }
+    
+    .menu {
+        width: 86%;
+        height: auto;
+    }
+    
+    .menu-img {
+        width: 100%;
+    }
+    
+    .menu-text {
+        width: 80%;
+        margin-left: 17px;
+    }
+    
+    .maps-2 {
+        width: 40%;
+        padding: 5% 2%;
+        margin-bottom: 5%;
+    }
+    
+    .section-book{
+     height: 620px;  
+    }
+}
+
+/* Small phones to small tablets : from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    body {font-size: 16px;}
+    section { 
+        height: auto;
+        padding: 40px 0; }
+    
+    .row { padding: 0 4%;}
+    
+    .col {width: 50%;
+         margin: 0 auto;    
+    }
+    
+    .main-nav {
+        display: none;}
+
+    .mobile-nav-icon { display: inline-block;}
+    
+    .main-nav { 
+        float: left;
+        margin-top: 15px;
+        margin-left: 25px;
+    }
+    
+    .main-nav li {
+        display: block;
+        font-size: 80%;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 90%;
+    }
+    
+    .sticky .main-nav {margin-top: 10px;}
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited { padding: 10px 0; }
+    .sticky .mobile-nav-icon { margin-top: 10px;} 
+    .sticky .mobile-nav-icon i { color: #555;} 
+    
+    
+    .hero-img {
+        width: 93%;
+        height: auto;
+    }
+
+    .pink-box { 
+        top: 45%;
+        right: 22%;
+        width: 50%;
+        height: 220px;
+        padding-right: 
+    }                           
+
+    .logo-pink {
+        height: 50px;
+        width: auto;
+    }
+    
+    .us-img {
+        display: none;
+    }
+    
+    .story{
+        width: 90%;    }
+
+    .menupic {
+        margin-top: 10%;
+        padding-left: 4%;}
+    
+    .menu {
+        width: 90%;
+        height: auto;
+    }
+    .menu-img {
+        width: 95%;
+    }
+    
+    .menu-text {
+        width: 80%;
+        margin-left: 14px;
+    }
+    
+    .m01 {
+    padding-top:50px;
+}
+
+    .map-img {
+        top:5%;
+        left:50%;
+        -webkit-transform: translate(-50%);
+        transform: translate(-50%);
+        -ms-transform: translateX(-50%);
+        position: absolute;
+    }
+
+    .maps-2 {
+        margin-top: 70%;
+        margin-bottom: 5%;
+        padding-top: 2%;
+        width: 100%;
+        height: auto; 
+        background-color: rgba(250, 244, 239, 0.87);
+        position: relative;
+
+    }
+    
+    .section-book{
+     height: 570px;  
+    }
+    
+    .contact {
+        height: auto;
+    }
+}
+
+/* Small phones : from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    .pink-box { 
+        top: 40%;
+        right: 21%;
+        width: 60%;
+        height: 250px;
+        padding-right: 
+    }                 
+}
+
+
+
